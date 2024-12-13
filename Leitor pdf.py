@@ -3,7 +3,7 @@ import pandas as pd
 from tabula import read_pdf
 from openpyxl import Workbook
 
-pdf_file = r"c:/Users/dejes/OneDrive/Área de Trabalho/Programação/projetos/Analise de dados/Painel Carteira 0128 VALEM-ADUFLA EST. 02-22  a .pdf"
+pdf_file = r"c:Programação/projetos/Analise de dados/Painel Carteira 0128.pdf"
 
 # Lê todas as tabelas do PDF
 tabelas = read_pdf(pdf_file, pages="all", multiple_tables=True, pandas_options={"header": None})
